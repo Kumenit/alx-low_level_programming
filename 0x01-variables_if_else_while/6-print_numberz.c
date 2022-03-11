@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	int c = 0;
 
-	while (c <= 'z')
+	while (c < 10)
 	{
-		putchar(c);
+		putchar(48 + c);
 		c++;
 	}
 
