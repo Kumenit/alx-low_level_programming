@@ -1,21 +1,23 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ *main - entry point
  *
- * Return: Always 0 (Success)
+ *Description:prints numbers of base16 in lowercase
+ *
+ *Return: Always zero
  */
 int main(void)
 {
-int z;
+	int dig, letterhex, n;
 
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
-}
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
-putchar('\n');
-return (0);
+	for (dig = 48, n = 0; n < 10; dig++, n++)
+	{
+		putchar(dig);
+	}
+	for (letterhex = 97, n = 1; n < 7; letterhex++, n++)
+	{
+		putchar(letterhex);
+	}
+	putchar(10);
+	return (0);
 }
