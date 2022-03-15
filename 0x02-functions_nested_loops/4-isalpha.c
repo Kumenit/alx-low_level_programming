@@ -11,4 +11,3 @@ int _isalpha(int c)
 	else
 		return (0);
 }
-© 2022 GitHub, Inc.
