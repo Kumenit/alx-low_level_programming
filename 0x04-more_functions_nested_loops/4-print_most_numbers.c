@@ -1,19 +1,21 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
 
 /**
- * _isalpha - prints 1 or 0 depending on input
- * @c: collects a char type
+ * print_most_numbers - Print numbers between 0 to 9 incl.
  *
- * Description: Checks for alphabets lower and uppercase
- * Return: Always(0).
+ * Return: Void.
  */
-
-int _isalpha(int c)
+void print_most_numbers(void)
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		return (1);
+		if (i != 2 && i != 4)
+		{
+			_putchar(i + '0');
+		}
 	}
-	return (0);
+	_putchar('\n');
 }
