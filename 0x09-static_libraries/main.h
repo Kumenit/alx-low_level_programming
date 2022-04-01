@@ -1,5 +1,5 @@
-#ifndef main_h
-#define main_h
+#ifndef FILE_MAIN_H
+#define FILE_MAIN_H
 
 int _putchar(char c);
 int _islower(int c);
