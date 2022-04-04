@@ -1,1 +1,1 @@
-this is my read me for static
+Introduction to C - Static libraries
