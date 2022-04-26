@@ -6,7 +6,7 @@
  * @h: pointer to the head/first member of a singly linked list of structs
  * of type listint_s
  *
- * Return: amount of nodes in the list
+ * Return: amount of nodes in the list  
  */
 
 size_t listint_len(const listint_t *h)
