@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /*
  * File: 100-elf_header.c
